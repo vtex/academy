@@ -3,40 +3,47 @@
 @import "elements.less";
 @import "bower_components/bootstrap/less/grid.less";
 
+body {
+	font-family: @main-font;
+}
+
 .opening {
 	background: @academy-orange url(../img/summer_academy_01.jpg) no-repeat center bottom;
 	background-size: cover;
 	padding: 60px 0 30px;
-	min-height: 70vh;
+	// min-height: 70vh;
 	color: #fff;
 	.square {
 		border-style: solid;
 		border-width: 15px;
 		border-color: white;
 		margin-top: 60px;
+		@media (max-width: 767px) {
+			width: 250px;
+			margin: 0 auto;
+		}
 	}
 	h1 {
 		font-family: "proxima-nova";
 		font-weight: 900;
 		font-size: 100px;
-		text-align: right;
-		line-height: 100px;
-	}
-	.btn {
-		background-color: white;
-		margin-top: 80px;
+		text-align: justify;
+		line-height: 1;
 	}
 }
 .introduction {
 	background-color: @academy-orange;
 	.summer_sun {
-		float: left;
+		position: absolute;
+		//float: left;
 		max-width: 450px;
 		margin-left: -20px;
+		@media (min-width: 1200px) {
+			width: 25%; 
+		}
 	}
 	.description {
 		h2 {
-			font-family: @main-font;
 			font-weight: 700;
 			font-size: 110px;
 			color: @academy-text;
@@ -50,7 +57,7 @@
 			float: center;
 		}
 		margin-top: 90px;
-		margin-bottom: 120px;
+		margin-bottom: 60px;
 		margin-left: none;
 	}
 }
@@ -58,14 +65,12 @@
 .info{
 	background-color: @academy-orange;
 	h2 {
-		font-family: @main-font;
 		font-weight: 700;
 		font-size: 110px;
 		color: @academy-text;
 		margin-bottom: 40px;
 	}
 	li {
-		font-family: @main-font;
 		font-weight: 400;
 		color: @academy-text;
 		font-size: 20px;
@@ -80,7 +85,6 @@
 	background: @academy-text;
 	.register {
 		h2 {
-			font-family: @main-font;
 			color: #fff;
 			font-weight: 700;
 			font-size: 110px;
@@ -88,22 +92,58 @@
 			margin-bottom: 40px;
 		}
 		h3 {
-			font-family: @main-font;
 			font-weight: 700;
 			font-size: 50px;
 			color: #fff;
 		}
 		p {
-			font-family: @main-font;
 			font-size: 25px;
 			color: #fff;
 		}
 	}
-	.btn {
-		margin-bottom: 90px;
-		margin-top: 30px;
-		background-color: #fff;
-		border: none;
+}
+
+.btn-go-to {
+	background-color: white;
+	margin-top: 120px;
+	margin-bottom: 90px;
+	font-size: 30px;
+	color: @academy-text;
+	padding: 15px 35px;
+	border-radius: 0;
+	&:hover {
+		color: #fff;
+		background-color: @academy-text;
 	}
 }
 
+.btn-lab {
+	background-color: @academy-text;
+	margin-bottom: 120px;
+	font-size: 20px;
+	color: white;
+	padding: 15px 35px;
+	border-radius: 0;
+	&:hover {
+		color: @academy-text;
+		background-color: white;
+	}
+}
+
+.btn-register {
+	margin-top: 40px;
+	&:hover {
+		color: @academy-text;
+		background-color: @academy-orange;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.square h1,
+	.info h2,
+	.registrations .register h2 {
+		font-size: 65px;
+		line-height: 1.1;
+	}
+}
