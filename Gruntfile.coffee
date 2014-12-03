@@ -6,7 +6,8 @@ module.exports = (grunt) ->
   config = GruntVTEX.generateConfig grunt, pkg, 
     relativePath: '/'
     replaceGlob: ''
-    open: 'localhost'
+    open: false
+    port: 9001
 
   config['gh-pages'] = 
     options:
@@ -20,7 +21,7 @@ module.exports = (grunt) ->
     # Deploy tasks
     dist: ['build', 'min', 'gh-pages'] # Dist - minifies files
     # Development tasks
-    default: ['build', 'connect', 'watch']
+    default: ['build', 'connect:http', 'watch']
     devmin: ['build', 'min', 'connect:http:keepalive'] # Minifies files and serve
 
   # Project configuration.
