@@ -6381,11 +6381,13 @@ button.close {
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+body {
+  font-family: "proxima-nova";
+}
 .opening {
   background: #f7c252 url(../img/summer_academy_01.jpg) no-repeat center bottom;
   background-size: cover;
   padding: 60px 0 30px;
-  min-height: 70vh;
   color: #fff;
 }
 .opening .square {
@@ -6394,32 +6396,38 @@ button.close {
   border-color: white;
   margin-top: 60px;
 }
+@media (max-width: 767px) {
+  .opening .square {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
 .opening h1 {
   font-family: "proxima-nova";
   font-weight: 900;
   font-size: 100px;
-  text-align: right;
-  line-height: 100px;
-}
-.opening .btn {
-  background-color: white;
-  margin-top: 80px;
+  text-align: justify;
+  line-height: 1;
 }
 .introduction {
   background-color: #f7c252;
 }
 .introduction .summer_sun {
-  float: left;
+  position: absolute;
   max-width: 450px;
   margin-left: -20px;
 }
+@media (min-width: 1200px) {
+  .introduction .summer_sun {
+    width: 25%;
+  }
+}
 .introduction .description {
   margin-top: 90px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   margin-left: none;
 }
 .introduction .description h2 {
-  font-family: "proxima-nova";
   font-weight: 700;
   font-size: 110px;
   color: #dd3e2b;
@@ -6436,14 +6444,12 @@ button.close {
   background-color: #f7c252;
 }
 .info h2 {
-  font-family: "proxima-nova";
   font-weight: 700;
   font-size: 110px;
   color: #dd3e2b;
   margin-bottom: 40px;
 }
 .info li {
-  font-family: "proxima-nova";
   font-weight: 400;
   color: #dd3e2b;
   font-size: 20px;
@@ -6456,7 +6462,6 @@ button.close {
   background: #dd3e2b;
 }
 .registrations .register h2 {
-  font-family: "proxima-nova";
   color: #fff;
   font-weight: 700;
   font-size: 110px;
@@ -6464,19 +6469,51 @@ button.close {
   margin-bottom: 40px;
 }
 .registrations .register h3 {
-  font-family: "proxima-nova";
   font-weight: 700;
   font-size: 50px;
   color: #fff;
 }
 .registrations .register p {
-  font-family: "proxima-nova";
   font-size: 25px;
   color: #fff;
 }
-.registrations .btn {
+.btn-go-to {
+  background-color: white;
+  margin-top: 120px;
   margin-bottom: 90px;
-  margin-top: 30px;
-  background-color: #fff;
-  border: none;
+  font-size: 30px;
+  color: #dd3e2b;
+  padding: 15px 35px;
+  border-radius: 0;
+}
+.btn-go-to:hover {
+  color: #fff;
+  background-color: #dd3e2b;
+}
+.btn-lab {
+  background-color: #dd3e2b;
+  margin-bottom: 120px;
+  font-size: 20px;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 0;
+}
+.btn-lab:hover {
+  color: #dd3e2b;
+  background-color: white;
+}
+.btn-register {
+  margin-top: 40px;
+}
+.btn-register:hover {
+  color: #dd3e2b;
+  background-color: #f7c252;
+}
+@media (max-width: 767px) {
+  .square h1,
+  .info h2,
+  .registrations .register h2 {
+    font-size: 65px;
+    line-height: 1.1;
+  }
 }
