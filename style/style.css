@@ -6517,3 +6517,9 @@ body {
     line-height: 1.1;
   }
 }
+@media (max-width: 450px) {
+  .registrations .register h2 {
+    font-size: 55px;
+    line-height: 1.1;
+  }
+}
