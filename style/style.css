@@ -6559,6 +6559,9 @@ body {
   }
 }
 @media (max-width: 450px) {
+  .info h2 {
+    font-size: 75px;
+  }
   .intern h2 {
     font-size: 48px;
   }
