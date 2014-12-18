@@ -6458,6 +6458,33 @@ body {
 .info ul {
   margin-bottom: 120px;
 }
+.intern {
+  background-color: #f7c252;
+  padding-bottom: 60px;
+}
+.intern h2 {
+  color: #dd3e2b;
+  font-size: 110px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.intern img {
+  margin-top: 40px;
+}
+.intern .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: relative;
+  border: 5px solid white;
+}
+.intern h4 {
+  margin-top: 20px;
+  color: #dd3e2b;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
 .registrations {
   background: #dd3e2b;
 }
@@ -6509,15 +6536,32 @@ body {
   color: #dd3e2b;
   background-color: #f7c252;
 }
+@media (max-width: 991px) {
+  .intern h2 {
+    font-size: 90px;
+    line-height: 1.1;
+  }
+}
 @media (max-width: 767px) {
+  .info h2 {
+    font-size: 90px;
+  }
   .square h1,
-  .info h2,
+  .intern h2,
   .registrations .register h2 {
     font-size: 65px;
     line-height: 1.1;
   }
 }
+@media (max-width: 535px) {
+  .intern h2 {
+    font-size: 55px;
+  }
+}
 @media (max-width: 450px) {
+  .intern h2 {
+    font-size: 48px;
+  }
   .registrations .register h2 {
     font-size: 55px;
     line-height: 1.1;
