@@ -81,6 +81,34 @@ body {
 	}
 }
 
+.intern {
+	background-color: @academy-orange;
+	padding-bottom: 60px;
+	h2 {
+		color: @academy-text;
+		font-size: 110px;
+		margin-bottom: 40px;
+		font-weight: 700;
+	}
+	img {
+		margin-top: 40px;
+	}
+	.circle {  
+    width: 200px;  
+    height: 200px;  
+    border-radius: 100px;  
+    position: relative;
+    border: 5px solid white;
+	}
+	h4 {
+		margin-top: 20px;
+		color: @academy-text;
+		font-weight: 700;
+		font-size: 25px;
+		margin-bottom: 60px;
+	}
+}
+
 .registrations {
 	background: @academy-text;
 	.register {
@@ -138,17 +166,35 @@ body {
 	}
 }
 
+@media (max-width: 991px) {
+	.intern h2 {
+		font-size: 90px;
+		line-height: 1.1;
+	}
+}
 
 @media (max-width: 767px) {
+	.info h2{
+		font-size: 90px;
+	}
 	.square h1,
-	.info h2,
+	.intern h2,
 	.registrations .register h2 {
 		font-size: 65px;
 		line-height: 1.1;
 	}
 }
 
+@media (max-width: 535px) {
+	.intern h2 {
+		font-size: 55px;
+	}
+}
+
 @media (max-width: 450px) {
+	.intern h2 {
+		font-size: 48px;
+	}
 	.registrations .register h2 {
 		font-size: 55px;
 		line-height: 1.1;
