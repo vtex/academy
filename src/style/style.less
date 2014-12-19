@@ -6,6 +6,16 @@
 body {
 	font-family: @main-font;
 }
+a {
+	text-decoration: underline;
+	color: @academy-text;
+	&:hover {
+		color: #fff;
+	}
+}
+.btn {
+	text-decoration: none;
+}
 
 .opening {
 	background: @academy-orange url(../img/summer_academy_01.jpg) no-repeat center bottom;
@@ -55,18 +65,6 @@ body {
 			color:  @academy-text;
 			font-size: 22px;
 			float: center;
-		}
-		a:link {
-			text-decoration: underline;
-			color: @academy-text;
-		}
-		a:visited {
-			text-decoration: underline;
-			color: @academy-text;
-		}
-		a:hover {
-			text-decoration: underline;
-			color: #fff;
 		}
 		margin-top: 90px;
 		margin-bottom: 60px;
