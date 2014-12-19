@@ -9,13 +9,34 @@ body {
 a {
 	text-decoration: underline;
 	color: @academy-text;
+	.transition(~"all .6s");
 	&:hover {
 		color: #fff;
 	}
 }
 .btn {
 	text-decoration: none;
-	.transition(all .4s);
+}
+h1 {
+	font-family: "proxima-nova";
+	font-weight: 900;
+	font-size: 100px;
+	text-align: justify;
+	line-height: 1;
+	text-transform: uppercase;
+	span {
+		display: block;
+	}
+}
+h2 {
+	font-weight: 700;
+	font-size: 110px;
+	color: @academy-text;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	span {
+		display: block;
+	}
 }
 
 .opening {
@@ -36,13 +57,6 @@ a {
 			margin: 0 auto;
 		}
 	}
-	h1 {
-		font-family: "proxima-nova";
-		font-weight: 900;
-		font-size: 100px;
-		text-align: justify;
-		line-height: 1;
-	}
 	.btn {
 		opacity: 0;
 		.animation(~'slide-right-fade-in 1.2s .8s cubic-bezier(0.34,1.61,0.7,1) forwards');
@@ -60,12 +74,6 @@ a {
 		}
 	}
 	.description {
-		h2 {
-			font-weight: 700;
-			font-size: 110px;
-			color: @academy-text;
-			margin-bottom: 40px;
-		}
 		p {
 			font-family: "proxima-nova";
 			font-weight: 400;
@@ -81,12 +89,6 @@ a {
 
 .info{
 	background-color: @academy-orange;
-	h2 {
-		font-weight: 700;
-		font-size: 110px;
-		color: @academy-text;
-		margin-bottom: 40px;
-	}
 	li {
 		font-weight: 400;
 		color: @academy-text;
@@ -101,12 +103,6 @@ a {
 .intern {
 	background-color: @academy-orange;
 	padding-bottom: 60px;
-	h2 {
-		color: @academy-text;
-		font-size: 110px;
-		margin-bottom: 40px;
-		font-weight: 700;
-	}
 	img {
 		margin-top: 40px;
 	}
@@ -131,10 +127,7 @@ a {
 	.register {
 		h2 {
 			color: #fff;
-			font-weight: 700;
-			font-size: 110px;
 			margin-top: 100px;
-			margin-bottom: 40px;
 		}
 		h3 {
 			font-weight: 700;
