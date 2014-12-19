@@ -14,6 +14,4 @@ var fire = 'color: red;'
 console.log('%c ' + linha1 + '\n' + linha2 + '\n' + linha3 + '\n' + linha4 + '\n' + linha5 + '%c' + '\n' + linha6 + '\n' + linha7 + '\n' + linha8 + '\n' + linha9, fire, 'color: blue')
 
 console.log("Nice, you have passed your first test. We love curious people so we love you already!")
-console.log("Since you have found our easter egg, we would like to provide you something to get one step ahead of your competitors!")
-console.log("When you apply for the job, write the following text as the first line of your summary: %cI like blue bananas", "font-weight: bold;")
 console.log("This page was coded by a Designer (a really nice one). So don't cha be all judgy and stuff.")
