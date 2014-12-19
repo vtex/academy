@@ -56,6 +56,18 @@ body {
 			font-size: 22px;
 			float: center;
 		}
+		a:link {
+			text-decoration: underline;
+			color: @academy-text;
+		}
+		a:visited {
+			text-decoration: underline;
+			color: @academy-text;
+		}
+		a:hover {
+			text-decoration: underline;
+			color: #fff;
+		}
 		margin-top: 90px;
 		margin-bottom: 60px;
 		margin-left: none;
@@ -174,7 +186,7 @@ body {
 }
 
 @media (max-width: 767px) {
-	.info h2{
+	.info h2 {
 		font-size: 90px;
 	}
 	.square h1,
@@ -192,6 +204,9 @@ body {
 }
 
 @media (max-width: 450px) {
+	.info h2 {
+		font-size: 75px;
+	}
 	.intern h2 {
 		font-size: 48px;
 	}
