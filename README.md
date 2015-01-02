@@ -1,5 +1,5 @@
-# VTEX Day Website
+# VTEX Academy Website
 
 ------
 
-VTEX - 2014
+VTEX - 2015
