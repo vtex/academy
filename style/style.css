@@ -6402,6 +6402,10 @@ h2 span {
   position: relative;
   border: 5px solid white;
 }
+.intern .photo-filter {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 .intern h4 {
   margin-top: 20px;
   color: #dd3e2b;
