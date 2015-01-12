@@ -119,10 +119,17 @@ h2 {
 
 	h4 {
 		margin-top: 20px;
-		color: @academy-text;
 		font-weight: 700;
 		font-size: 25px;
 		margin-bottom: 60px;
+	}
+	a {
+		text-decoration: none;
+		color: @academy-text;
+		.transition(~"all .6s");
+		&:hover {
+			color: #ffffff;
+		}
 	}
 }
 
@@ -208,6 +215,7 @@ h2 {
 }
 
 /*==========  MEDIA QUERIES  ==========*/
+
 @media (max-width: 991px) {
 	.intern h2 {
 		font-size: 90px;
