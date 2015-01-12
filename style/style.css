@@ -6408,10 +6408,19 @@ h2 span {
 }
 .intern h4 {
   margin-top: 20px;
-  color: #dd3e2b;
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 60px;
+}
+.intern a {
+  text-decoration: none;
+  color: #dd3e2b;
+  -webkit-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+}
+.intern a:hover {
+  color: #ffffff;
 }
 .registrations {
   background: #dd3e2b;
