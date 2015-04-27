@@ -7,7 +7,7 @@ module.exports = (grunt) ->
     relativePath: '/'
     replaceGlob: ''
     open: false
-    port: 9000
+    port: 9001
 
   config['gh-pages'] = 
     options:

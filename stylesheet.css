@@ -2,8 +2,12 @@ body{
 	background-color: #000000;
 	margin: 0;
 }
-div.opening{
-	background-image: url("https://41.media.tumblr.com/8d8f1adf646bec1a9f916c3cb6881361/tumblr_nn4kjfenKc1qdcwh9o1_1280.png");
+
+div.icon{
+}
+
+div.title{
+	background-image: url("https://raw.githubusercontent.com/vtex/academy/master/img/snow_on_pines_3_wallpaper_background_hd.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -11,38 +15,70 @@ div.opening{
 	vertical-align: middle;
 	width: 1920px;
 	height: 600px;
-	padding-top: 190px;
+	padding-top: 220px;
 }
 
 div.container{
-	height: 150px;
-	width: 150px;
-	border: 5px;
+	height: 190px;
+	width: 190px;
+	border: 6px;
 	
 	border-color: #17E474;
 	border-style: solid;
 
 	margin: auto;
-
+	margin-top: 70px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	line-height: 2px;
 }
 
-span.date{
-	font-family: 'libertad', Open Sans;
-	font-style: bold italic;
-	font-size: 48px;
-	line-height: 24px;
-	vertical-align: middle;
+div.date p{
+	margin: auto;
+	margin-top: -10px;
+
+	font-style: italic;
+	font-weight: bold;
+
+	line-height: 66px;
+	font-size: 66px;
+}
+
+div.about{
+	width: 580px;
+	height:650px;
+
+	font-size: 28px;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	margin: auto;
+}
+
+div.button{
+	width: 390px;
+	height: 80px;
+
+	background-color: #703DF3;
+	border-radius: 22px;
+
+	margin: auto;
+
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 h1{
 	font-family: 'libertad', Open Sans;
 	font-style: italic;
-	font-size: 100px;
+	font-size: 154px;
 	text-align: center;
 	color: #17E474;
 	margin-top: 0;
 	margin-bottom: 0;
-
 }
 
 h2{
@@ -64,17 +100,28 @@ h3{
 p{
 	font-family: 'libertad', Open Sans;
 	font-style: light;
-	font-size: 18px;
 	text-align: center;
 	color: #17E474
 }
 
-li{
+table, td{
 	font-family: 'libertad', Open Sans;
 	font-style: light italic;
-	font-size: 14px;
+	font-size: 28px;
 	text-align: center;
 	color: #17E474;
+
+	border: 1px #17E474;
+	border-style: dashed;
+
+	margin: auto;
+}
+
+div.table{
+	width: 1980px;
+	height: 600px;
+
+	margin: auto;
 }
 
 
