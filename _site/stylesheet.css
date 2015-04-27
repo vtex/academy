@@ -1,0 +1,58 @@
+body{
+	background-color: #000000;
+}
+div.opening{
+	width: 1920px;
+	height: 800px; 
+}
+
+div.container{
+	height: 150px;
+	width: 150px;
+	border: 5px;
+	
+	border-color: #17E474;
+	border-style: solid;
+
+	margin: auto;
+}
+
+h1{
+	font-family: 'libertad', Open Sans;
+	font-style: italic;
+	font-size: 100px;
+	text-align: center;
+	color: #17E474
+}
+
+h2{
+	font-family: 'libertad', Open Sans;
+	font-style: italic;
+	font-size: 28px;
+	text-align: center;
+	color: #17E474
+}
+
+h3{
+	font-family: 'libertad', Open Sans;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	color: #17E474
+}
+
+p{
+	font-family: 'libertad', Open Sans;
+	font-style: light;
+	font-size: 14px;
+	text-align: center;
+	color: #17E474
+}
+
+li{
+	font-family: 'libertad', Open Sans;
+	font-style: light italic;
+	font-size: 14px;
+	text-align: center;
+	color: #17E474;
+}
