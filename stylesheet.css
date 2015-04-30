@@ -3,19 +3,26 @@ body{
 	margin: 0;
 }
 
-div.icon{
+.opening img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div.title{
+.opening {
 	background-image: url("https://raw.githubusercontent.com/vtex/academy/master/img/snow_on_pines_3_wallpaper_background_hd.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
 	background-position: top;
 	vertical-align: middle;
-	width: 1920px;
-	height: 600px;
-	padding-top: 220px;
+	padding-bottom: 395px;
+	padding-top: 75px;
+}
+
+.opening h1{
+	padding-top: 70px;
+	margin-bottom: 100px;
 }
 
 div.container{
@@ -27,7 +34,7 @@ div.container{
 	border-style: solid;
 
 	margin: auto;
-	margin-top: 70px;
+	margin-top: 60px;
 	font-weight: bold;
 	font-style: italic;
 	font-size: 30px;
@@ -69,6 +76,13 @@ div.button{
 	font-style: italic;
 	font-weight: bold;
 	text-decoration: none;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+.button span {
+	line-height: 80px;
+	text-align: center;
 }
 
 h1{
@@ -84,9 +98,10 @@ h1{
 h2{
 	font-family: 'libertad', Open Sans;
 	font-style: italic;
-	font-size: 28px;
-	text-align: center;
-	color: #17E474
+	font-size: 65px;
+	text-align: left;
+	color: #17E474;
+	margin-left: 0.5em;
 }
 
 h3{
@@ -107,21 +122,90 @@ p{
 table, td{
 	font-family: 'libertad', Open Sans;
 	font-style: light italic;
-	font-size: 28px;
-	text-align: center;
+	font-size: 26px;
+	text-align: left;
 	color: #17E474;
-
-	border: 1px #17E474;
-	border-style: dashed;
-
 	margin: auto;
+
 }
 
-div.table{
+table, li {
+	list-style-type: none;
+}
+
+.tableleft, .tableright {
+	max-width: 700px;
+}
+
+.table{
 	width: 1980px;
 	height: 600px;
-
+	display: initial;
 	margin: auto;
 }
 
+.bigfoot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.summeracademy {
+	background-color: #FAC95D;
+}
+
+.summeracademy h2 {
+	color: #E53547;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 40px;
+}
+
+.summeracademy p {
+	text-align: center;
+	color: #E53547;
+	max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.summers {
+	color: #E53547;
+	font-family: 'libertad', Open Sans;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.blogposttitle {
+	color: #E53547;
+	font-family: 'libertad', Open Sans;
+	font-weight: normal;
+	font-size: 0.9em;
+	padding-bottom: 20px;
+}
+
+.wrap {
+	text-align: center;
+}
+
+.wrap ul li {
+   display:inline-block;
+   margin-right: 10px;
+}
+
+.wrap .circle {
+	width: 150px;
+ 	height: 150px;
+	border-radius: 100px;
+ 	position: relative;
+ 	border: 4px solid #E53547;
+ 	margin-bottom: 15px;
+}
+
+a { 
+	text-decoration: none;
+}
