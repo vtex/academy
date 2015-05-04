@@ -159,6 +159,7 @@ table, li {
 	text-align: center;
 	font-size: 50px;
 	padding-top: 40px;
+	font-size: 4.5em;
 }
 
 .summeracademy p {
@@ -189,6 +190,7 @@ table, li {
 
 .wrap {
 	text-align: center;
+	padding-bottom: 100px;
 }
 
 .wrap ul li {
@@ -211,7 +213,7 @@ a {
 
 .footer {
 	background-color: #2B2A28;
-	height: 60px;
+	height: 45px;
 }
 
 ul {
@@ -219,9 +221,10 @@ ul {
 }
 
 .vtexicon {
-	width: 100px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 	margin-left: auto;
 	margin-right: auto;
   	display: list-item;
+  	padding-top: 8px;
 }
