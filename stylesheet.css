@@ -177,7 +177,6 @@ table, li {
 	font-family: 'libertad', Open Sans;
 	font-weight: bold;
 	font-size: 1.4em;
-	margin-bottom: 10px;
 }
 
 .blogposttitle {
@@ -208,4 +207,21 @@ table, li {
 
 a { 
 	text-decoration: none;
+}
+
+.footer {
+	background-color: #2B2A28;
+	height: 60px;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+.vtexicon {
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+  	display: list-item;
 }
