@@ -22,7 +22,7 @@ body{
 }
 
 .opening {
-	background-image: url("https://raw.githubusercontent.com/vtex/academy/master/img/snow_on_pines_3_wallpaper_background_hd.png");
+	background-image: url("../images/snow_on_pines_3_wallpaper_background_hd.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
@@ -220,7 +220,7 @@ table, li {
  	margin-bottom: 15px;
 }
 
-a { 
+a {
 	text-decoration: none;
 }
 
