@@ -43,7 +43,7 @@ body{
 	height: 190px;
 	width: 190px;
 	border: 6px;
-	color: #17E474;
+	color: #E83242;
 	border-style: solid;
 	margin: auto;
 	margin-bottom: 70px;
@@ -103,7 +103,7 @@ h1{
 	font-style: italic;
 	font-size: 154px;
 	text-align: center;
-	color: #17E474;
+	color: #E83242;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -112,7 +112,7 @@ h2{
 	font-style: italic;
 	font-size: 2.5em;
 	text-align: left;
-	color: #17E474;
+	color: #E83242;
 	margin-left: 0.5em;
 }
 
@@ -120,20 +120,20 @@ h3{
 	font-style: italic;
 	font-size: 20px;
 	text-align: center;
-	color: #17E474
+	color: #E83242
 }
 
 p{
 	font-style: light;
 	text-align: center;
-	color: #17E474
+	color: #E83242
 }
 
 .table {
 	font-style: light italic;
 	font-size: 1.5em;
 	text-align: left;
-	color: #17E474;
+	color: #E83242;
 	margin: auto;
 }
 
@@ -168,10 +168,10 @@ p{
 	font-weight: normal;
 	padding-bottom: 20px;
 }
-hei
+/*hei
     font-weight: normal;
     padding-bottom: 20px;
-}
+}*/
 
 .summers {
 	color: #E53547;
