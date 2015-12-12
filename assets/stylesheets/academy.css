@@ -92,7 +92,7 @@ div.button{
 	width: 390px;
 	height: 80px;
 
-	background-color: #431437;
+	background-color: #b12416;
 	border-radius: 22px;
 	color: #FFF;
 	margin: auto;
@@ -161,11 +161,11 @@ p{
 }
 
 .summeracademy {
-	background-color: #FAC95D;
+	background-color: #17E474;
 }
 
 .summeracademy h2 {
-	color: #E53547;
+	color: #FFF;
 	text-align: center;
 	font-size: 50px;
 	padding-top: 40px;
@@ -175,7 +175,7 @@ p{
 
 .summeracademy p {
 	text-align: center;
-	color: #E53547;
+	color: #FFF;
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
@@ -189,13 +189,13 @@ p{
 }*/
 
 .summers {
-	color: #E53547;
+	color: #FFF;
 	font-weight: bold;
 	font-size: 1.4em;
 }
 
 .blogposttitle {
-	color: #E53547;
+	color: #FFF;
 	font-weight: normal;
 	font-size: 0.9em;
 	padding-bottom: 20px;
@@ -216,7 +216,7 @@ p{
  	height: 150px;
 	border-radius: 100px;
  	position: relative;
- 	border: 4px solid #E53547;
+ 	border: 4px solid #FFF;
  	margin-bottom: 15px;
 }
 
