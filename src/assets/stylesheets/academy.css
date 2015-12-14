@@ -1,7 +1,6 @@
 body{
 	background-color: #000000;
 	margin: 0;
-	font-family: 'petala-pro',Helvetica;
 }
 
 .opening img {
@@ -39,11 +38,23 @@ body{
 	text-align: center;
 }
 
+h1.winterh1 {
+	margin-bottom: 30px !important;
+}
+
+h1.sub-wintertitle {
+	font-size: 110px;
+	font-weight: 400 !important;
+	text-align: center;
+	margin-top: -40px !important;
+	padding-top: 0px !important;
+}
+
 .box{
 	height: 190px;
 	width: 190px;
 	border: 6px;
-	color: #17E474;
+	color: #EE7937;
 	border-style: solid;
 	margin: auto;
 	margin-bottom: 70px;
@@ -73,7 +84,7 @@ div.about{
 	font-size: 28px;
 	font-variant: small-caps;
 	font-style: italic;
-	font-weight: bold;
+	font-weight: 400;
 	margin: auto;
 }
 
@@ -81,9 +92,9 @@ div.button{
 	width: 390px;
 	height: 80px;
 
-	background-color: #703DF3;
+	background-color: #b12416;
 	border-radius: 22px;
-
+	color: #FFF;
 	margin: auto;
 
 	font-size: 28px;
@@ -92,6 +103,10 @@ div.button{
 	text-decoration: none;
 	margin-top: 100px;
 	margin-bottom: 60px;
+}
+
+div.button p span {
+	color: #FFF;
 }
 
 .button span {
@@ -103,7 +118,7 @@ h1{
 	font-style: italic;
 	font-size: 154px;
 	text-align: center;
-	color: #17E474;
+	color: #EE7937;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -112,7 +127,7 @@ h2{
 	font-style: italic;
 	font-size: 2.5em;
 	text-align: left;
-	color: #17E474;
+	color: #EE7937;
 	margin-left: 0.5em;
 }
 
@@ -120,20 +135,20 @@ h3{
 	font-style: italic;
 	font-size: 20px;
 	text-align: center;
-	color: #17E474
+	color: #EE7937
 }
 
 p{
 	font-style: light;
 	text-align: center;
-	color: #17E474
+	color: #EE7937
 }
 
 .table {
 	font-style: light italic;
 	font-size: 1.5em;
 	text-align: left;
-	color: #17E474;
+	color: #EE7937;
 	margin: auto;
 }
 
@@ -146,11 +161,11 @@ p{
 }
 
 .summeracademy {
-	background-color: #FAC95D;
+	background-color: #17E474;
 }
 
 .summeracademy h2 {
-	color: #E53547;
+	color: #FFF;
 	text-align: center;
 	font-size: 50px;
 	padding-top: 40px;
@@ -160,7 +175,7 @@ p{
 
 .summeracademy p {
 	text-align: center;
-	color: #E53547;
+	color: #FFF;
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
@@ -168,19 +183,19 @@ p{
 	font-weight: normal;
 	padding-bottom: 20px;
 }
-hei
+/*hei
     font-weight: normal;
     padding-bottom: 20px;
-}
+}*/
 
 .summers {
-	color: #E53547;
+	color: #FFF;
 	font-weight: bold;
 	font-size: 1.4em;
 }
 
 .blogposttitle {
-	color: #E53547;
+	color: #FFF;
 	font-weight: normal;
 	font-size: 0.9em;
 	padding-bottom: 20px;
@@ -201,7 +216,7 @@ hei
  	height: 150px;
 	border-radius: 100px;
  	position: relative;
- 	border: 4px solid #E53547;
+ 	border: 4px solid #FFF;
  	margin-bottom: 15px;
 }
 
@@ -219,12 +234,11 @@ ul {
 }
 
 .vtexicon {
-	width: 30px;
-	height: 30px;
+	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
-  	display: list-item;
-  	padding-top: 8px;
+  display: list-item;
+  padding-top: 12px;
 }
 
 @media only screen and (max-width: 992px) {
