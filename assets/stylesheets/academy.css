@@ -234,12 +234,11 @@ ul {
 }
 
 .vtexicon {
-	width: 30px;
-	height: 30px;
+	width: 100px;
 	margin-left: auto;
 	margin-right: auto;
-  	display: list-item;
-  	padding-top: 8px;
+  display: list-item;
+  padding-top: 12px;
 }
 
 @media only screen and (max-width: 992px) {
