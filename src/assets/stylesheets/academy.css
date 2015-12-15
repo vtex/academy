@@ -160,28 +160,46 @@ p{
 		height: 450px;
 }
 
-.summeracademy {
-	background-color: #17E474;
-}
-
-.summeracademy h2 {
-	color: #FFF;
+.last-summers h2 {
 	text-align: center;
-	font-size: 50px;
 	padding-top: 40px;
 	font-size: 4.5em;
 	margin-left: 0;
 }
 
-.summeracademy p {
+.last-summers p {
 	text-align: center;
-	color: #FFF;
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
 	font-weight: normal;
 	padding-bottom: 20px;
+}
+
+.summer-academy-2015 {
+	background-color: #EE7937;
+}
+
+.summer-academy-2015 h2 {
+	color: #000;
+}
+
+.summer-academy-2015 p {
+	color: #000;
+}
+
+
+.winter-academy-2015 {
+	background-color: #17E474;
+}
+
+.winter-academy-2015 h2 {
+	color: #FFF;
+}
+
+.winter-academy-2015 p {
+	color: #FFF;
 }
 /*hei
     font-weight: normal;
@@ -208,7 +226,7 @@ p{
 
 .wrap ul li {
    display:inline-block;
-   margin-right: 10px;
+   margin-right: 25px;
 }
 
 .wrap .circle {
@@ -280,8 +298,8 @@ ul {
 	div.button span:not(.button-value):not(:last-child) {
 		height: 30px;
 	}
-	.summeracademy h2 { font-size: 3.5em; }
-	.summeracademy p {
+	.last-summers h2 { font-size: 3.5em; }
+	.last-summers p {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
