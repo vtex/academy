@@ -36,6 +36,8 @@ body{
 }
 .wintertitle h1 {
 	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 h1.winterh1 {
@@ -82,8 +84,6 @@ div.date p{
 
 div.about{
 	font-size: 28px;
-	font-variant: small-caps;
-	font-style: italic;
 	font-weight: 400;
 	margin: auto;
 }
@@ -116,7 +116,7 @@ div.button p span {
 
 h1{
 	font-style: italic;
-	font-size: 154px;
+	font-size: 140px;
 	text-align: center;
 	color: #EE7937;
 	margin-top: 0;
@@ -160,28 +160,51 @@ p{
 		height: 450px;
 }
 
-.summeracademy {
-	background-color: #17E474;
-}
-
-.summeracademy h2 {
-	color: #FFF;
+.last-summers h2 {
 	text-align: center;
-	font-size: 50px;
+	margin-top: 0;
 	padding-top: 40px;
 	font-size: 4.5em;
 	margin-left: 0;
 }
 
-.summeracademy p {
+.last-summers p {
 	text-align: center;
-	color: #FFF;
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
 	font-weight: normal;
 	padding-bottom: 20px;
+}
+
+.last-summers .wrap a:hover {
+	text-decoration: none;
+}
+
+.summer-academy-2015 {
+	background-color: #EE7937;
+}
+
+.summer-academy-2015 h2 {
+	color: #000;
+}
+
+.summer-academy-2015 p {
+	color: #000;
+}
+
+
+.winter-academy-2015 {
+	background-color: #17E474;
+}
+
+.winter-academy-2015 h2 {
+	color: #FFF;
+}
+
+.winter-academy-2015 p {
+	color: #FFF;
 }
 /*hei
     font-weight: normal;
@@ -208,7 +231,7 @@ p{
 
 .wrap ul li {
    display:inline-block;
-   margin-right: 10px;
+   margin-right: 25px;
 }
 
 .wrap .circle {
@@ -280,8 +303,8 @@ ul {
 	div.button span:not(.button-value):not(:last-child) {
 		height: 30px;
 	}
-	.summeracademy h2 { font-size: 3.5em; }
-	.summeracademy p {
+	.last-summers h2 { font-size: 3.5em; }
+	.last-summers p {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -293,11 +316,6 @@ ul {
 	.vtexlabicon img { width: 70%; }
 }
 
-@media only screen and (min-width: 1700px) {
-
-   .opening { min-height: 850px; }
-
-}
 
 @media only screen and (max-width: 500px) {
 
