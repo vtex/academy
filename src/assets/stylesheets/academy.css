@@ -36,6 +36,8 @@ body{
 }
 .wintertitle h1 {
 	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 h1.winterh1 {
@@ -82,8 +84,6 @@ div.date p{
 
 div.about{
 	font-size: 28px;
-	font-variant: small-caps;
-	font-style: italic;
 	font-weight: 400;
 	margin: auto;
 }
@@ -116,7 +116,7 @@ div.button p span {
 
 h1{
 	font-style: italic;
-	font-size: 154px;
+	font-size: 140px;
 	text-align: center;
 	color: #EE7937;
 	margin-top: 0;
@@ -162,6 +162,7 @@ p{
 
 .last-summers h2 {
 	text-align: center;
+	margin-top: 0;
 	padding-top: 40px;
 	font-size: 4.5em;
 	margin-left: 0;
@@ -175,6 +176,10 @@ p{
 	font-size: 18px;
 	font-weight: normal;
 	padding-bottom: 20px;
+}
+
+.last-summers .wrap a:hover {
+	text-decoration: none;
 }
 
 .summer-academy-2015 {
@@ -311,11 +316,6 @@ ul {
 	.vtexlabicon img { width: 70%; }
 }
 
-@media only screen and (min-width: 1700px) {
-
-   .opening { min-height: 850px; }
-
-}
 
 @media only screen and (max-width: 500px) {
 
