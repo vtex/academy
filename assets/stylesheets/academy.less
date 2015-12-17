@@ -1,0 +1,362 @@
+/*----------  General  ----------*/
+body {
+	background-color: #000000;
+	color: #EE7937;
+	font-family: 'petala-pro', Helvetica;
+	margin: 0;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h1 {
+	font-size: 140px;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin-left: 0.5em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	font-weight: 200;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*----------  Hero  ----------*/
+.opening {
+	background-image: url("../images/summer-header-color.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 75px;
+
+	h1 {
+		padding-top: 70px;
+		margin-bottom: 70px;
+		font-weight: bold;
+	}
+}
+
+.vtexlabicon {
+	max-height: 250px;
+	img {
+		display: block;
+		margin: auto auto;
+		width: 250px;
+		height: 150px;
+	}
+}
+
+.main-heading { 
+	h1 {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		span {
+			display: block;
+		}
+	}
+
+}
+.mega-title {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.sub-title {
+	font-size: 110px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: -40px;
+	padding-top: 0px;
+}
+
+.box {
+	height: 190px;
+	width: 190px;
+	border: 6px;
+	color: #EE7937;
+	border-style: solid;
+	margin: auto;
+	margin-bottom: 70px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	line-height: 2px;
+
+	h4 {
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+.date p {
+	margin: auto;
+	margin-top: -10px;
+
+	font-style: italic;
+	font-weight: bold;
+
+	line-height: 66px;
+	font-size: 66px;
+}
+
+/*----------  Content  ----------*/
+.about {
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.nitty-gritty {
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: left;
+	color: #EE7937;
+	margin-top: 50px;
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+
+.button {
+	width: 390px;
+	height: 80px;
+
+	background-color: #b12416;
+	border-radius: 40px;
+	color: #FFF;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	line-height: 75px;
+	text-transform: uppercase;
+
+	transition: all .3s, transform .3s cubic-bezier(0.34,1.61,.7,1);
+
+	a {
+		text-decoration: none;
+		color: #fff;
+		display: block;
+	}
+}
+
+.btn-secondary {
+	background: none;
+	box-shadow: inset 0 0 0 2px #b12416;
+	font-size: 20px;
+	width: 300px;
+	height: 56px;
+	line-height: 54px;
+	font-weight: normal;
+}
+
+.btn-main-cta {
+	margin-top: 60px;
+}
+.button:hover, .btn-secondary:hover {
+	background-color: rgb(213,47,36);
+	box-shadow: inset 0 0 0 4px rgb(213,47,36);
+	transform: scale(1.05,1.05);
+
+	a {
+		color: #fff;
+		transition: all .3s;
+	}
+}
+
+
+/*----------  Past Academy  ----------*/
+.past-academy {
+	padding: 80px 5px;
+
+	h2 {
+		text-align: center;
+		margin-top: 0;
+		font-size: 4.5em;
+		margin-left: 0;
+		margin-bottom: 30px;
+		text-transform: none;
+	}
+	p {
+		max-width: 720px;
+		font-size: 20px;
+		font-weight: normal;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+}
+
+.winter-academy-2015 {
+	background-color: darken(#17E474, 6%);
+	color: #FFF;
+}
+
+.summer-academy-2015 {
+	background-color: #EE7937;
+	color: #000;
+}
+
+.summers {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.blogposttitle {
+	color: #FFF;
+	font-weight: normal;
+	font-size: 0.9em;
+	padding-bottom: 20px;
+}
+
+.wrap {
+	padding-top: 30px;
+	ul li {
+		display:inline-block;
+		margin-right: 25px;
+	}
+	.circle {
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		position: relative;
+		border: 4px solid #FFF;
+		margin-bottom: 15px;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
+/*----------  Footer  ----------*/
+footer {
+	background-color: #2B2A28;
+	height: 55px;
+	.vtexicon {
+		width: 90px;
+		margin: 0 auto;
+		padding-top: 16px;
+		display: block;
+		opacity: .1;
+	}
+}
+
+/*----------  Responsive  ----------*/
+@media (max-width: 992px) {
+	.main-heading h1 { font-size: 6.5em; }
+}
+
+@media (max-width: 750px) {
+	.main-heading h1 { font-size: 5em; }
+}
+
+@media (max-width: 550px) {
+	.nitty-gritty {
+		h2 { font-size: 1.6em; }
+		li {
+			font-size: 0.8em;
+			margin-bottom: 15px;
+			width: 95%
+		}
+	} 
+}
+
+@media (max-width: 511px) {
+	.bigfoot {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 400px) {
+	.button {
+		width: 70%;
+		height: auto;
+	}
+	.past-academy {
+		h2 { font-size: 3.5em; }
+		p {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+@media (max-width: 290px) {
+	.main-heading h1 { font-size: 2.8em; }
+	.vtexlabicon img { width: 70%; }
+}
+
+
+@media (max-width: 480px) {
+	.about p { font-size: 24px; }
+	.nitty-gritty {
+		h2 {
+			margin-top: 30px;
+		}
+	}
+}
+
+/*----------  Animation  ----------*/
+// https://github.com/daneden/animate.css
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
