@@ -14,6 +14,36 @@ module.exports = (grunt) ->
       base: 'build/<%= relativePath %>'
     src: ['**']
 
+  config.less =
+    main:
+      files: [
+        expand: true
+        cwd: 'src/assets/stylesheets/'
+        src: ['academy.less']
+        dest: "build/assets/stylesheets/"
+        ext: '.css'
+      ]
+
+  config.watch.less =
+    options:
+      livereload: false
+    files: ['src/assets/stylesheets/**/*.less']
+    tasks: ['less']
+  
+  config.watch.main =
+    files: ['src/assets/script/**/*.js',
+            'src/assets/images/**/*',
+            'src/assets/libs/**/*',
+            'src/index.html']
+    tasks: ['copy:main', 'getTags', 'copy:dev']
+
+  config.copy.main.files = [
+    expand: true
+    cwd: 'src/'
+    src: ['**']
+    dest: "build/"
+  ]
+
   tasks =
     # Building block tasks
     build: ['clean', 'copy:main', 'copy:pkg', 'coffee', 'less']
