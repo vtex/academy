@@ -12,5 +12,5 @@ bower_components/
 .tmp/
 dist/
 .grunt/grunt-gh-pages/gh-pages/src/
-
+_site/
 *.log
