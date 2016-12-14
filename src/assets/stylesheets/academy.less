@@ -18,10 +18,11 @@ h1 {
 h2 {
 	font-size: 3em;
 	margin-bottom: 20px;
+	line-height: 1.2em;
 }
 
 h3 {
-	line-height: 1.5em;
+	line-height: 1.4em;
 	font-size: 2em;
 	margin-bottom: 40px;
 }
@@ -41,6 +42,13 @@ p {
 }
 
 a {
+	color: inherit;
+	text-decoration: none;
+	transition: all .3s
+}
+
+a:hover {
+	color: #FB7B89;
 	text-decoration: none;
 }
 
@@ -50,7 +58,7 @@ a {
 
 /*----------  Hero  ----------*/
 .opening {
-	background-image: url("../images/background_img.png");
+	background-image: url("../images/background_summer.jpg");
 	/*---background-image: url("../images/summer-header-color.jpg");---*/
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -173,8 +181,8 @@ a {
 }
 
 .testimonials {
-	padding: 150px 0 50px;
 	font-weight: 400;
+	padding-bottom: 150px;
 
 	h4 {
 		padding-bottom: 50px;
@@ -251,13 +259,15 @@ a {
 
 .intern {
 	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.intern-round {
+	width: 100%;
 	margin-bottom: 30px;
 	border-radius: 50%;
 	position: relative;
-
-	a {
-		text-decoration: none;
-	}
 }
 
 .quote-comp {
@@ -278,7 +288,17 @@ a {
 
 /*----------  Past Academy  ----------*/
 .past-academy {
-	padding-bottom: 150px;
+	padding: 150px 0 150px;
+}
+
+.medium {
+	text-align: left;
+	margin-bottom: 30px;
+
+	p {
+		margin: 0;
+		font-size: 1.3em;
+	}
 }
 
 .winter-academy-2015 {
@@ -353,7 +373,11 @@ footer {
 }
 
 @media (max-width: 750px) {
-	.main-heading h1 { font-size: 5em; }
+	.main-heading h1 { font-size: 4.2em; }
+	.main-heading { top: 22vh; }
+	.opening { height: 100vh; }
+	.vtexlabicon { top: 0vh; }
+	.opening-btn { top: 1vh; }
 }
 
 @media (max-width: 550px) {
