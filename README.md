@@ -2,7 +2,7 @@
 
 ==
 
-Live page at: [vtex.academy](https://vtex.academy)
+Live page at: [academy.vtex.com](https://academy.vtex.com)
 
 ## Contributing
 
@@ -24,5 +24,3 @@ Finally, clone this repo, install deps and run grunt:
     grunt dist
 
 ------
-
-VTEX - 2015
