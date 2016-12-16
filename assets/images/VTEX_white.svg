@@ -1,17 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="2125px" height="449px" viewBox="0 0 2125 449" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.3 (16044) - http://www.bohemiancoding.com/sketch -->
-    <title>VTEX</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="VTEX" sketch:type="MSLayerGroup" fill="#FFFFFF">
-            <path d="M1854,0.3 C2014,0.3 2124.1,20.2 2124.1,103.2 C2124.1,165.2 2023.5,208.1 2019.1,210 C2034.9,197.7 2081.7,169.2 2081.7,113.1 C2081.7,73.1 2022.6,28.4 1797.9,28.4 C1541.9,28.4 1331.6,72.7 1330,72.9 C1445.2,44.4 1600,0.3 1854,0.3 L1854,0.3 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-            <circle id="Oval" sketch:type="MSShapeGroup" cx="1752.3" cy="126.2" r="48.7"></circle>
-            <path d="M1919.7,130.2 L2041,130.5 L1804.7,287.2 L1941.4,407.5 L1815.3,408.4 L1734.4,333.4 L1560.6,448.5 L1432,448.5 L1678.2,281.9 L1547,167.6 L1672.3,167.9 L1747.3,234.2 L1919.7,130.2 L1919.7,130.2 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-            <path d="M0.4,167.9 L135.6,167.8 L267.8,291.2 L403.2,167.9 L487.3,167.8 L541.5,232.5 L459,232.5 L266.1,419.9 L0.4,167.9 L0.4,167.9 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-            <path d="M1453,168.1 L1453.1,223.3 L1112.6,223.2 L1112.6,259.7 L1432.9,259.7 L1433,305.9 C1433,305.9 1129.8,305.7 1114.3,305.7 C1114.3,317.4 1114.7,350.5 1171.2,350.5 L1453.3,350.5 L1453.2,408.9 C1453.2,408.9 1190.7,408.8 1125.2,408.8 C1064.2,408.8 1013.8,380.1 1013.8,334.3 C1013.8,283.6 1013.7,168.1 1013.7,168.1 L1453,168.1 L1453,168.1 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-            <path d="M526,167.7 L979.5,167.9 L979.7,232.6 L812.3,232.6 L811.9,408.6 L702.3,408.5 L702.2,232.5 L588.1,232.5 L526,167.7 L526,167.7 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2125 449"
+	 style="enable-background:new 0 0 2125 449;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>VTEX</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="VTEX" sketch:type="MSLayerGroup">
+		<path id="Shape_1_" sketch:type="MSShapeGroup" class="st0" d="M1901.7,130.3l121.3,0.3l-236.3,156.7l136.7,120.3l-126.1,0.9
+			l-80.9-75l-173.8,115.1H1414L1660.2,282L1529,167.7l125.3,0.3l75,66.3L1901.7,130.3L1901.7,130.3z"/>
+		<path id="Shape_2_" sketch:type="MSShapeGroup" class="st0" d="M-17.6,168l135.2-0.1l132.2,123.4L385.2,168l84.1-0.1l54.2,64.7
+			H441L248.1,420L-17.6,168L-17.6,168z"/>
+		<path id="Shape_3_" sketch:type="MSShapeGroup" class="st0" d="M1435,168.2l0.1,55.2l-340.5-0.1v36.5h320.3l0.1,46.2
+			c0,0-303.2-0.2-318.7-0.2c0,11.7,0.4,44.8,56.9,44.8h282.1l-0.1,58.4c0,0-262.5-0.1-328-0.1c-61,0-111.4-28.7-111.4-74.5
+			c0-50.7-0.1-166.2-0.1-166.2H1435L1435,168.2z"/>
+		<path id="Shape_4_" sketch:type="MSShapeGroup" class="st0" d="M508,167.8l453.5,0.2l0.2,64.7H794.3l-0.4,176l-109.6-0.1l-0.1-176
+			H570.1L508,167.8L508,167.8z"/>
+	</g>
+</g>
 </svg>
