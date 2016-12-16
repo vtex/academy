@@ -140,7 +140,7 @@ a:hover {
 	padding: 150px 0;
 	font-weight: 400;
 	color: #fff;
-	background-color: #171719;
+	background-color: #130024;
 }
 
 .nitty-gritty {
@@ -283,6 +283,12 @@ a:hover {
 	padding-top: 50px;
 }
 
+iframe {
+	margin-top: 10px;
+	border: solid 10px #fff;
+	width: 100%;
+}
+
 /*----------  Past Academy  ----------*/
 .past-academy {
 	padding: 150px 0 150px;
@@ -333,6 +339,9 @@ footer {
 	.main-heading { top: 25vh; }
 	.about-vtex { padding-bottom: 100px; }
 	.quote { padding-bottom: 0; }
+	.benefits { padding: 100px 0 0 15px; }
+	iframe { height: 500px; }
+	ul { margin-left: 15px; }
 }
 
 @media (max-width: 750px) {
@@ -347,17 +356,17 @@ footer {
 	.opening-btn { top: 45vh; margin-left: 0; }
 	.about { padding: 100px 0; }
 	.nitty-gritty { padding: 100px 0; }
-	.benefits { padding: 100px 0 0 15px; }
 	.past-academy h4 { padding: 100px 0 0; }
 	.photo-grid { padding: 0 0 0; }
 	.testimonials { padding: 0 0 100px; }
 	.about-vtex { padding: 100px 0 100px; }
-	ul { margin-left: 15px; }
 	.quote h2 { font-size: 2em; }
 	.quote-comp {	display: block; }
+	iframe { height: 500px; }
 }
 
 @media (max-width: 550px) {
+	iframe { height: 250px; }
 	.nitty-gritty {
 		h2 { font-size: 1.6em; }
 		li {
@@ -449,7 +458,7 @@ footer {
 
 .layer {
 	background-position: bottom center;
-	background-size: auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100vh;
