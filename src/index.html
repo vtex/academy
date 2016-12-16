@@ -14,17 +14,30 @@
 	<link rel="stylesheet" href="assets/stylesheets/academy.css">
 	<!-- endbuild -->
 	<script src="//use.typekit.net/rdv2uhj.js"></script>
+	<script>
+		window.addEventListener('scroll', function (e) {
+			var topDistance = window.scrollY
+			var layers = document.querySelectorAll('[data-type="parallax"]')
+			layers.forEach(function (layer) {
+				var depth = layer.getAttribute('data-depth')
+				movement = -(topDistance * depth)
+				translate3d = 'translate3d(0, ' + movement + 'px, 0)'
+				layer.style.transform = translate3d
+			})
+		})
+	</script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
 </head>
 <body>
 	<div id="hero">
-		<div class="layer layer-01"></div>
-		<div class="layer layer-02"></div>
-		<div class="layer layer-03"></div>
-		<div class="layer layer-04"></div>
-		<div class="layer layer-05"></div>
+		<div class="layer-bg layer" data-type="parallax" data-depth="1.00"></div>
+		<div class="layer layer-1" data-type="parallax" data-depth="0.10"></div>
+		<div class="layer layer-2" data-type="parallax" data-depth="0.40"></div>
+		<div class="layer layer-3" data-type="parallax" data-depth="0.70"></div>
+		<div class="layer layer-4" data-type="parallax" data-depth="0.95"></div>
 	</div>
+	<div id="hero-mobile"></div>
 	<div class="opening">
 		<div class="container-fluid">
 			<div class="vtexlabicon animated fadeInUp">

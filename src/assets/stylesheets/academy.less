@@ -56,44 +56,6 @@ a:hover {
 	max-width: 1400px;
 }
 
-/*----------  Hero  ----------*/
-
-#hero {
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
-}
-
-.layer {
-  background-position: bottom center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-}
-
-.layer-01 {
-   background-image: url("../images/background_summer_1.jpg");
-}
-
-.layer-02 {
-   background-image: url("../images/background_summer_2.png");
-}
-
-.layer-03 {
-   background-image: url("../images/background_summer_3.png");
-}
-
-.layer-04 {
-   background-image: url("../images/background_summer_4.png");
-}
-
-.layer-05 {
-   background-image: url("../images/background_summer_5.png");
-}
-
 .opening {
 
 	h1 {
@@ -475,4 +437,59 @@ footer {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+
+/*----------  Hero  ----------*/
+
+#hero {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+}
+
+#hero-mobile {
+	display: none;
+	background: url("../images/background_summer.jpg") no-repeat center bottom / cover;
+	height: 100vh;
+}
+
+#hero, .layer {
+	min-height: 100vh;
+}
+
+.layer-bg {
+	background-image: url("../images/background_summer_bg.jpg");
+}
+.layer-1 {
+	background-image: url("../images/background_summer_1.png");
+	background-position: left bottom;
+}
+.layer-2 {
+	background-image: url("../images/background_summer_2.png");
+}
+.layer-3 {
+	background-image: url("../images/background_summer_3.png");
+	background-position: right bottom;
+}
+.layer-4 {
+	background-image: url("../images/background_summer_4.png");
+}
+
+@media only screen and (max-width: 768px) {
+	#hero {
+		display: none;
+	}
+	#hero-mobile {
+		display: block;
+	}
 }
