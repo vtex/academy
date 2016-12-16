@@ -46,7 +46,7 @@
 			<div class="main-heading animated fadeInUp">
 				<h1>
 					<span class="mega-title">Summer Academy 2016</span>
-					<span class="sub-title">Faltam 25 Dias</span>
+					<span id="countdown" class="sub-title">Faltam 0 Dias</span>
 				</h1>
 				<div class="button btn-secondary opening-btn">
 					<a href="http://lab.vtex.com/" target="_blank">
@@ -487,5 +487,12 @@
 	<footer>
 		<img class="vtexicon" src="assets/images/VTEX_white.svg" alt="VTEX Icon">
 	</footer>
+	<script>
+		var finalDate = new Date('2017', 0, '16')
+		var today = new Date()
+		var timeDiff = Math.abs(finalDate - today)
+		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24))
+		document.getElementById('countdown').innerHTML = 'Faltam ' + diffDays + ' Dias'
+	</script>
 </body>
 </html>
