@@ -57,14 +57,44 @@ a:hover {
 }
 
 /*----------  Hero  ----------*/
-.opening {
-	background-image: url("../images/background_summer.jpg");
-	/*---background-image: url("../images/summer-header-color.jpg");---*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 100px;
+
+#hero {
 	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.layer-01 {
+   background-image: url("../images/background_summer_1.jpg");
+}
+
+.layer-02 {
+   background-image: url("../images/background_summer_2.png");
+}
+
+.layer-03 {
+   background-image: url("../images/background_summer_3.png");
+}
+
+.layer-04 {
+   background-image: url("../images/background_summer_4.png");
+}
+
+.layer-05 {
+   background-image: url("../images/background_summer_5.png");
+}
+
+.opening {
 
 	h1 {
 		padding: 0px 0 10px;
@@ -176,11 +206,14 @@ a:hover {
 	font-weight: 400;
 	color: #fff;
 	background-color: #341B5D;
+	background-image: url("../images/texture.png");
+	background-size: cover;
 }
 
 .testimonials {
 	font-weight: 400;
 	padding-bottom: 150px;
+	background-color: #fff;
 
 	h4 {
 		padding-bottom: 50px;
@@ -263,7 +296,6 @@ a:hover {
 
 .intern-round {
 	width: 100%;
-	margin-bottom: 30px;
 	border-radius: 50%;
 	position: relative;
 }
@@ -273,10 +305,10 @@ a:hover {
 	align-items: center;
 	padding: 0 0 80px 0;
 	font-weight: 400;
+	background-color: #fff;
 }
 
 .quote {
-	padding-bottom: 90px;
 }
 
 .name {
@@ -285,12 +317,14 @@ a:hover {
 }
 
 .photo-grid {
+	background-color: #fff;
 	padding-top: 50px;
 }
 
 /*----------  Past Academy  ----------*/
 .past-academy {
 	padding: 150px 0 150px;
+	background-color: #fff;
 	h4 {
 		padding-top: 150px;
 	}
@@ -303,48 +337,6 @@ a:hover {
 	p {
 		margin: 0;
 		font-size: 1.3em;
-	}
-}
-
-.winter-academy-2015 {
-	background-color: darken(#17E474, 6%);
-	color: #FFF;
-}
-
-.summer-academy-2015 {
-	background-color: #EE7937;
-	color: #000;
-}
-
-.summers {
-	color: #FFF;
-	font-weight: bold;
-	font-size: 1.4em;
-}
-
-.blogposttitle {
-	color: #FFF;
-	font-weight: normal;
-	font-size: 0.9em;
-	padding-bottom: 20px;
-}
-
-.wrap {
-	padding-top: 30px;
-	ul li {
-		display:inline-block;
-		margin-right: 25px;
-	}
-	.circle {
-		width: 150px;
-		height: 150px;
-		border-radius: 100px;
-		position: relative;
-		border: 4px solid #FFF;
-		margin-bottom: 15px;
-	}
-	a {
-		text-decoration: none;
 	}
 }
 
@@ -385,6 +377,7 @@ footer {
 	h3 { font-size: 1.8em; }
 	h2 { font-size: 3em; }
 	p { font-size: 1.4em; }
+	.intern-round { margin-bottom: 30px; }
 	.main-heading h1 { font-size: 3.8em; }
 	.main-heading { top: 25vh; }
 	.opening { height: 100vh; }
