@@ -14,18 +14,6 @@
 	<link rel="stylesheet" href="assets/stylesheets/academy.css">
 	<!-- endbuild -->
 	<script src="//use.typekit.net/rdv2uhj.js"></script>
-	<script>
-		window.addEventListener('scroll', function (e) {
-			var topDistance = window.scrollY
-			var layers = document.querySelectorAll('[data-type="parallax"]')
-			layers.forEach(function (layer) {
-				var depth = layer.getAttribute('data-depth')
-				movement = -(topDistance * depth)
-				translate3d = 'translate3d(0, ' + movement + 'px, 0)'
-				layer.style.transform = translate3d
-			})
-		})
-	</script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
 </head>
@@ -130,7 +118,7 @@
 						<h3>O programa Academy já rolou algumas vezes e revelou vários talentos para nossa equipe!</h3>
 					</div>
 					<div class="col-lg-5 col-sm-12 col-xs-12">
-						<p>O VTEX Academy já tem três anos de história e está em sua quarta edição. 
+						<p>O VTEX Academy já tem três anos de história e está em sua quarta edição.
 							Ao todo, dezesseis candidatas/os foram selecionadas/os para desenvolver projetos audaciosos sob a mentoria do time de profissionais da VTEX.</p>
 						<p><em>Veja abaixo o que elas/es tem a dizer dessa incrível experiência!</em></p>
 					</div>
@@ -162,7 +150,6 @@
 				</a>
 				<div class="photo-grid">
 					<div class="row">
-						
 						<div class="col-lg-3 col-sm-4 col-xs-12">
 							<a href="http://lab.vtex.com/blog/meu-verao-na-vtex/">
 								<img class="intern" src="assets/images/interns/isabella.png">
@@ -208,7 +195,7 @@
 								</div>
 							</a>
 						</div>
-									
+
 						<div class="col-lg-3 col-sm-4 col-xs-12">
 							<a href="http://lab.vtex.com/blog/meu-verao-na-vtex/">
 								<img class="intern" src="assets/images/interns/genezys.png">
@@ -226,7 +213,7 @@
 									<p><strong>Meu verão na VTEX</strong></p>
 								</div>
 							</a>
-						</div>					
+						</div>
 						<div class="col-lg-3 col-sm-4 col-xs-12">
 							<a href="http://lab.vtex.com/blog/meu-verao-na-vtex/">
 								<img class="intern" src="assets/images/interns/gabriel.jpg">
@@ -346,7 +333,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="about-vtex">
 		<div class="container-fluid">
 			<div class="row">
@@ -481,5 +467,27 @@
 		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24))
 		document.getElementById('countdown').innerHTML = 'Faltam ' + diffDays + ' Dias'
 	</script>
+	<script>
+			var tick = false
+			var parallaxAnimation = function () {
+				var topDistance = window.scrollY
+				var layers = document.querySelectorAll('[data-type="parallax"]')
+				layers.forEach(function (layer) {
+					var depth = layer.getAttribute('data-depth')
+					movement = -(topDistance * depth)
+					translate3d = 'translate3d(0, ' + movement + 'px, 0)'
+					layer.style.transform = translate3d
+					tick = false
+				})
+			}
+			if (getComputedStyle(document.getElementById('hero'), null).display !== 'none') {
+				window.addEventListener('scroll', function (e) {
+					if (!tick) {
+						window.requestAnimationFrame(parallaxAnimation)
+						tick = true
+					}
+				})
+			}
+		</script>
 </body>
 </html>
