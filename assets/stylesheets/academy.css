@@ -77,6 +77,7 @@ a:hover {
   text-align: left;
   padding-left: 0px;
   padding-right: 20px;
+  text-shadow: 1px 1px 1px #1e0c26;
 }
 .main-heading h1 span {
   display: block;
@@ -89,7 +90,6 @@ a:hover {
   font-size: 0.45em;
   font-weight: 600;
   text-align: left;
-  margin-top: -40px;
   padding-top: 0px;
 }
 .opening-btn {
