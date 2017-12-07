@@ -1,5 +1,74 @@
-@import '//io.vtex.com.br/fonts/fabriga/stylesheet.css';
 /*----------  General  ----------*/
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-Regular.eot');
+  src: url('Fabriga-Regular?#iefix') format('embedded-opentype'), url('Fabriga-Regular.woff2') format('woff2'), url('Fabriga-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-Italic.eot');
+  src: url('Fabriga-Italic?#iefix') format('embedded-opentype'), url('Fabriga-Italic.woff2') format('woff2'), url('Fabriga-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-Bold.eot');
+  src: url('Fabriga-Bold?#iefix') format('embedded-opentype'), url('Fabriga-Bold.woff2') format('woff2'), url('Fabriga-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-BoldItalic.eot');
+  src: url('Fabriga-BoldItalic?#iefix') format('embedded-opentype'), url('Fabriga-BoldItalic.woff2') format('woff2'), url('Fabriga-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-Light.eot');
+  src: url('Fabriga-Light.eot?#iefix') format('embedded-opentype'), url('Fabriga-Light.woff2') format('woff2'), url('Fabriga-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-LightItalic.eot');
+  src: url('Fabriga-LightItalic?#iefix') format('embedded-opentype'), url('Fabriga-LightItalic.woff2') format('woff2'), url('Fabriga-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-Medium.eot');
+  src: url('Fabriga-Medium?#iefix') format('embedded-opentype'), url('Fabriga-Medium.woff2') format('woff2'), url('Fabriga-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-MediumItalic.eot');
+  src: url('Fabriga-MediumItalic?#iefix') format('embedded-opentype'), url('Fabriga-MediumItalic.woff2') format('woff2'), url('Fabriga-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-Black.eot');
+  src: url('Fabriga-Black?#iefix') format('embedded-opentype'), url('Fabriga-Black.woff2') format('woff2'), url('Fabriga-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fabriga';
+  src: url('Fabriga-BlackItalic.eot');
+  src: url('Fabriga-BlackItalic?#iefix') format('embedded-opentype'), url('Fabriga-BlackItalic.woff2') format('woff2'), url('Fabriga-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
 body {
   font-family: 'fabriga';
   margin: 0;
