@@ -14,3 +14,4 @@ dist/
 .grunt/grunt-gh-pages/gh-pages/src/
 _site/
 *.log
+.DS_Store
